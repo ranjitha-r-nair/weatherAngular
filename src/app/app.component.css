@@ -1,0 +1,147 @@
+body{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.container{
+    width:400px;
+    height: 90vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(12, 12, 12);
+ border: 1px solid black;
+ /* margin-top: 1.5em; */
+
+
+}
+.upper-data{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    overflow: hidden;
+
+    
+}
+
+.upper-data img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.weather-data{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.location{
+    font-size: 1.2em;
+    color: white;
+    /* text-align: center; */
+}
+.temperature{
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+}
+
+.lower-data{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    overflow: hidden;
+    /* padding: 1em; */
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.more-info{
+    color: white;
+}
+
+
+.more-info-details{
+flex: 1;
+background-color: whitesmoke;
+margin-top: 1em;
+margin-bottom: 2em;
+margin-right: 2em;
+display: flex;
+/* flex-direction: row; */
+flex-wrap: wrap;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+
+}
+.info-block{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.info-label{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info-block img{
+    width: 2em;
+}
+.info-label span{
+    color: black;
+    font-size: 0.8em;
+    padding-top: 10px;
+}
+.info-value{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    color: black;
+    font-weight: 550;
+
+}
+button img{
+    height: 5px;
+    width: 5px;
+}
+.search{
+    margin-top: 10px;
+    /* margin-left: -150px; */
+
+   
+}
+.search input{
+    /* display:flex;
+    flex-direction: column;
+    margin-top: 10px; */
+    border: 0px solid ;
+    border-bottom: 5px solid #bebed6;;
+    border-bottom-width:2px ;
+  
+    background-color: transparent;
+    /* border-color: #c7c7e2; */
+    width: 300px;
+    color: yellow;
+}
+.search button{
+    margin-left: 10px;
+}
