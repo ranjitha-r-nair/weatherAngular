@@ -33,15 +33,15 @@
 
 
     <div class="upper-data">
-      <img src="./assets/day.jpg" alt="" *ngIf="temp.main.temp >25">
-      <img src="../assets/istockphoto-899283338-612x612.jpg" alt="" *ngIf="temp.main.temp <= 25">
+      <img src="./assets/day.jpg" alt="" *ngIf="temperature >27">
+      <img src="../assets/istockphoto-899283338-612x612.jpg" alt="" *ngIf="temperature <=27" >
 
       <div class="weather-data">
 
         <div class="search">
           <input type="text" class="form-control" name="location" [(ngModel)]="loc">
           <button type="button" class="btn btn-light" (click)="getWeatherData()">
-            <i class="fa-2x fa-solid fa-magnifying-glass"></i>
+            <i class=" fa-solid fa-magnifying-glass"></i>
           </button>
 
 
